@@ -1,10 +1,18 @@
 ---
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
+name: ❓ Question
+about: Задать вопрос по JustCoin
+title: "[QUESTION] "
+labels: question
 ---
 
+## Вопрос
 
+Что вы хотите узнать?
+
+## Контекст
+
+Опишите ситуацию подробнее.
+
+## Что вы уже пробовали?
+
+Если применимо, расскажите, что уже проверили.
