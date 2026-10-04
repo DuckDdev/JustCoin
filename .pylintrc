@@ -1,0 +1,68 @@
+[MASTER]
+
+py-version=3.13
+
+ignore=
+    .git,
+    __pycache__,
+    .venv,
+    venv
+
+ignore-patterns=
+    ^.*\.pyc$,
+    ^errors\.py\.new$
+
+[MESSAGES CONTROL]
+
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    too-few-public-methods,
+    too-many-arguments,
+    too-many-locals,
+    too-many-statements,
+    too-many-branches,
+    too-many-return-statements,
+    too-many-instance-attributes,
+    broad-exception-caught,
+    broad-exception-raised,
+    import-error,
+    no-member,
+    invalid-name,
+    line-too-long
+
+[FORMAT]
+
+max-line-length=120
+
+[BASIC]
+
+good-names=
+    i,
+    j,
+    k,
+    x,
+    y,
+    db,
+    id,
+    ok,
+    _
+
+[REFACTORING]
+
+max-nested-blocks=5
+
+[SIMILARITIES]
+
+min-similarity-lines=8
+
+[TYPECHECK]
+
+generated-members=
+    sqlalchemy.*
+    aiogram.*
+
+[VARIABLES]
+
+allow-global-unused-variables=yes
