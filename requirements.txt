@@ -1,0 +1,7 @@
+# Telegram-бот виртуальной валюты «ДжастКоин» (JustCoin)
+# Python 3.11+
+
+aiogram>=3.7,<4
+aiosqlite>=0.19
+Pillow>=10.0
+python-dotenv>=1.0
